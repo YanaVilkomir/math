@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Math</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -64,7 +62,7 @@
                 </div>
               </li>
             </ul>
-            <button type="button" class="btn button button_purple2">Войти</button>
+            <button type="button" class="btn button button_purple2" data-toggle="modal" data-target="#exampleModalCenter">Войти</button>
           </div>
         </div>
       </nav>
@@ -81,7 +79,7 @@
           <div class="subtitle">Детям от 4 лет и взрослым</div>
         </div>
         <div class="d-flex flex-row justify-content-center">
-          <button type="button" class="btn button_white">Начать заниматься!</button>
+          <button type="button" class="btn button_white" data-toggle="modal" data-target="#exampleModalCenter">Начать заниматься!</button>
         </div>
       </div>
     </section>
@@ -254,7 +252,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <button type="button" class="btn button button_purple"><a href="news.html">Все новости</a></button>
+          <a href="news.html" class="btn button button_purple">Все новости</a>
         </div>
       </div>
     </section>
@@ -337,7 +335,7 @@
         <div class="row">
           <div class="col-md-4  col-12 justify-content-center">
             <div class="card">
-              <img src="./img/publications_1.png" class="card-img-top" alt="...">
+              <img src="./img/knigi-original.jpg" class="card-img-top" alt="publications">
               <div class="card-body">
                 <div class="card-block">
                   <p class="card-title">
@@ -351,7 +349,7 @@
                 <div class="card-footer">
                   <p class="card-text">Новые образовательные продукты для школьников, устойчивость к высоким нагрузкам и обучение учителей — главные приоритеты онлайн-платформы в учебном году 2020–2021.</p>
                 </div>
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start mb-3">
                   <button type="button" class="btn button button_purple">Читать далее</button>
                 </div>
               </div>
@@ -359,7 +357,7 @@
           </div>
           <div class="col-md-4  col-12 justify-content-center">
             <div class="card">
-              <img src="./img/publications_1.png" class="card-img-top" alt="...">
+              <img src="./img/knigi-original.jpg" class="card-img-top" alt="publications">
               <div class="card-body">
                 <div class="card-block">
                   <p class="card-title">
@@ -373,7 +371,7 @@
                 <div class="card-footer">
                   <p class="card-text">Новые образовательные продукты для школьников, устойчивость к высоким нагрузкам и обучение учителей — главные приоритеты онлайн-платформы в учебном году 2020–2021.</p>
                 </div>
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start mb-3">
                   <button type="button" class="btn button button_purple">Читать далее</button>
                 </div>
               </div>
@@ -381,12 +379,12 @@
           </div>
           <div class="col-md-4  col-12 justify-content-center">
             <div class="card">
-              <img src="./img/publications_1.png" class="card-img-top" alt="...">
+              <img src="./img/knigi-original.jpg" class="card-img-top" alt="publications">
               <div class="card-body">
                 <div class="card-block">
                   <p class="card-title">
                   <ul class="list-unstyled list-inline font-small display justify-content-center">
-                    <li class="list-inline-item pr-2 white-text">Новые <br> образовательные</li>
+                    <li class="list-inline-item pr-2 white-text">Новые <br>образовательные</li>
                     <li class="list-inline-item pr-2 justify-content-end"><a href="#" class="white-text"><i class="far fa-comments pr-1"></i>12</a></li>
                     <li class="list-inline-item pr-2 justify-content-end"><a href="#" class="white-text"><i class="fab fa-facebook-f pr-1">
                         </i>21</a></li>
@@ -395,7 +393,7 @@
                 <div class="card-footer">
                   <p class="card-text">Новые образовательные продукты для школьников, устойчивость к высоким нагрузкам и обучение учителей — главные приоритеты онлайн-платформы в учебном году 2020–2021.</p>
                 </div>
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start mb-3">
                   <button type="button" class="btn button button_purple">Читать далее</button>
                 </div>
               </div>
@@ -407,7 +405,6 @@
             <button type="submit" class="btn button button_white">Все публикации</button>
           </form>
         </div>
-
       </div>
     </section>
 
@@ -417,9 +414,7 @@
       <div class="row footer_content">
         <div class="col-md-3 col-sm-6 ">
           <h3>Еще больше информации в нашем телеграме</h3>
-          <button type="button" class="btn search_but align-self-center mb-3 button_white">
-            <span>Подписаться</span>
-          </button>
+            <a href="news.html" class="btn button button_white waves-effect waves-light" data-toggle="modal" data-target="#exampleModalCenter">Подписаться</a>
         </div>
         <div class="col-md-9 col-sm-12">
           <div class="row mar_none">
@@ -464,24 +459,63 @@
           </div>
         </div>
       </div>
-      <div class="row  mt-3">
+      <div class="row mt-3">
         <div class="col">
           <a href="index.html" class="logo_link">math.com</a>
         </div>
         <div class="col d-flex justify-content-end">
           <div>
             <ul class="item">
-              <li class="item_list"></li>
-              <li class="item_list"></li>
-              <li class="item_list"></li>
-              <li class="item_list"></li>
-              <li class="item_list"></li>
+              <li class="item_list"><a href="https://www.facebook.com/" target="_blank"></a></li>
+              <li class="item_list"><a href="https://www.instagram.com/" target="_blank"></a></li>
+              <li class="item_list"><a href="https://www.linkedin.com/" target="_blank"></a></li>
+              <li class="item_list"><a href="https://telegram.org/" target="_blank"></a></li>
+              <li class="item_list"><a href="https://www.viber.com/ru/" target="_blank"></a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </footer>
+  <div style="height:3000px"></div>
+    <div id="topNubex"><img src="img/bi_arrow-up-circle.png" width="30px" height="30px" /></div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title caption" id="exampleModalLongTitle">Регистрация</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div>
+              <span>
+                <label class="text-small-uppercase">Имя *</label>
+                <input class="text-body" id="username" name="username" type="text" required>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label class="text-small-uppercase">Фамилия *</label>
+                <input class="text-body" id="username" name="username" type="text" required>
+              </span>
+            </div>
+            <div>
+              <label class="text-small-uppercase">Email</label>
+              <input class="text-body" id="email" name="email" type="email">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button_purple" data-dismiss="modal">Отмена</button>
+          <button type="submit" class="btn button_white">Регистрация</button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -500,6 +534,27 @@
     });
   </script>
 
+  <script>
+    $('#myModal').on('shown.bs.modal', function() {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
 
 </body>
 
